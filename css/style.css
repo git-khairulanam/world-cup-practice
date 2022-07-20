@@ -1,0 +1,296 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* --- top banner --- */
+
+.banner{
+  width: 1321px;
+  height: 646px;
+  background-color: #161616;
+  border-radius: 30px;
+
+  display: flex;
+}
+
+.banner-desc{
+  width: 50%;
+  margin: 111px 0 111px 106px;
+}
+
+.banner-image{
+  width: 50%;
+}
+
+.banner-desc .banner-title{
+  width: 531px;
+  height: 240px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+
+.banner-desc .banner-para{
+  width: 506px;
+  height: 78px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.banner-desc a{
+  width: 187px;
+  height: 56px;
+  background-color: #DD0000;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.fa-angle-right{
+  padding-left: 5px;
+}
+
+.banner-image img{
+  width: 581px;
+  height: 613px;
+  margin: 33px 79px 0 0;
+}
+
+/* --- top banner --- */
+
+/* --- last container --- */
+.last-container{
+  margin-top: 130px;
+}
+
+.flx-sec{
+  display: flex;
+}
+
+.link-sec{
+  width: 25%;
+}
+
+.match-sec{
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+}
+
+.links{
+  width: 312px;
+  height: 312px;
+  background-color: #161616;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.link-sec a{
+  padding: 17px 39px;
+  text-decoration: none;
+  width: 174px;
+  height: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 10px;
+}
+
+.white-bg{
+  background-color: #FFFFFF;
+  color: black;
+}
+
+
+.red-bg{
+  background-color: #DD0000;
+  color: #FFFFFF;
+}
+
+/* match card  */
+.match-item{
+  width: 312px;
+  height: 362px;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 10px;
+}
+
+.match-desc .match-banner img{
+  width: 312px;
+  height: 175px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+}
+
+.match-title{
+  padding: 0 20px 0 20px;
+}
+
+.btn{
+  font-family: 'Poppins';
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #161616;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.match-title p{
+  width: 272px;
+  height: 54px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #161616;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.match-info{
+  display: flex;
+  width: 143px;
+  height: 26px;
+  padding: 0 149px 0px 20px;
+}
+
+.fa-message{
+  padding-left: 20px;
+}
+
+/* match card  */
+
+
+/* --- ** -- last container --- ** -- */
+
+/* footer css  */
+.main-ftr{
+  width: 1341px;
+  height: 444px;
+  background-color: #161616;
+  margin-top: 130px;
+}
+
+.ftr-title{
+  margin-bottom: 30px;
+}
+
+.ftr-title h2{
+  width: 95px;
+  height: 60px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+
+hr{
+  width: 1120px;
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ftr-menu{
+  margin: 30px;
+}
+
+.ftr-menu ul{
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.ftr-menu ul li{
+  list-style: none;
+}
+
+.ftr-menu ul li a{
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B9B9B9;
+}
+
+/* css for second website  */
+.match-card{
+  width: 312px;
+  height: 242px;
+  box-shadow: 1px 1px 5px gray;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.flag-flx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.flag-img{
+  width: 93.04px;
+  height: 56.18px;
+}
+
+.versus{
+  padding: 10px 20px;
+}
+
+.match-title{
+  margin-bottom: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #161616;
+}
+
+.match-time{
+  margin-top: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #4D4D4D;
+}
