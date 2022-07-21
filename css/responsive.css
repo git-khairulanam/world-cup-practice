@@ -1,0 +1,134 @@
+/* media queries */
+
+/* for smart phone  */
+
+@media only screen and (max-width:688px){
+  .banner{
+    width: 334px;
+    height: 472px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .banner-desc{
+    width: 258px;
+    height: 178px;
+    text-align: center;
+  }
+
+  .banner-desc .banner-title{
+    width: 228px;
+    height: 66px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+  }
+
+  .banner-desc .banner-para{
+    /* width: 258px;
+    height: 48px; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+
+  .banner-desc a{
+    padding: 8px 12px;
+    width: 161px;
+    height: 40px;
+  }
+
+  .banner-image img{
+    width: 233px;
+    height: 245px;
+  }
+
+  .flx-sec{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .match-sec{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 18px;
+  }
+
+  .main-ftr{
+    width: 375px;
+    height: 412px;
+  }
+
+  .ftr-menu ul{
+    flex-direction: column;
+  }
+}
+
+/* for smart phone  */
+
+/* for tablet pc  */
+
+@media only screen and (min-width: 689px) and (max-width: 992px){
+
+  .banner{
+    width: 734px;
+    height: 398px;
+  }
+
+  .banner-desc{
+    width: 316px;
+    height: 276px;
+  }
+
+  .banner-title{
+    width: 289px;
+    height: 150px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .banner-para{
+    width: 316px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .banner-image img{
+    width: 323px;
+    height: 340px;
+  }
+
+  .flx-sec{
+    flex-direction: column;
+  }
+
+  .match-sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+
+  .main-ftr{
+    width: 834px;
+    height: 345px;
+  }
+
+  .ftr-menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .btn a{
+    display: inline;
+  }
+}

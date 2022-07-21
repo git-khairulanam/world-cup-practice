@@ -154,7 +154,6 @@ body{
 .btn{
   font-family: 'Poppins';
   font-style: normal;
-
   font-size: 16px;
   line-height: 24px;
   color: #161616;
@@ -173,6 +172,7 @@ body{
   color: #161616;
   margin-bottom: 20px;
   margin-top: 10px;
+  text-align: left;
 }
 
 .match-info{
@@ -187,6 +187,20 @@ body{
 }
 
 /* match card  */
+
+.btn a{
+  width: 187px;
+  height: 56px;
+  background-color: #DD0000;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  display: none;
+}
 
 
 /* --- ** -- last container --- ** -- */
