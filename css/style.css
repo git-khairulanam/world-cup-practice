@@ -248,6 +248,26 @@ hr{
   color: #B9B9B9;
 }
 
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social div a{
+  border-radius: 25%;
+  background-color: #FFFFFF;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.social .fa-brands{
+  color: black;
+  
+}
+
+/* footer end  */
+
 /* css for second website  */
 .match-card{
   width: 312px;
