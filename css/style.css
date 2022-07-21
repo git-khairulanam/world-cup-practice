@@ -61,6 +61,11 @@ body{
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
+  transition: 3s;
+}
+
+.banner-desc a:hover{
+  background-color: green;
 }
 
 .fa-angle-right{
@@ -201,6 +206,7 @@ body{
   line-height: 23px;
   display: none;
 }
+
 
 
 /* --- ** -- last container --- ** -- */
